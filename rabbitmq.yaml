@@ -36,7 +36,7 @@ spec:
               - DAC_OVERRIDE
           readOnlyRootFilesystem: true
       - name: rabbitmq-exporter
-        image: registry.ntnxlab.local/library/kbudde/rabbitmq-exporter:latest
+        image: registry.ntnxlab.local/library/kbudde/rabbitmq-exporter:1.0.0
         ports:
         - containerPort: 9090
           name: exporter
