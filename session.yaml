@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: session-db
-        image: registry.ntnxlab.local/library/redis:alpine
+        image: registry.ntnxlab.local/library/library/redis:6.2-alpine
         ports:
         - name: redis
           containerPort: 6379
